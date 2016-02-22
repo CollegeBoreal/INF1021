@@ -19,7 +19,7 @@ Tester le routage a travers le reseau, a partir du 1er PC [192.168.100.1] en exe
 ## Les commandes a retenir:
 
 ```
-SHOW IP ROUTE                "Chercher des S et les S*"
+SHOW IP INT BRIEF            "Afficher l'adresse des interfaces"
 SHOW DIAGNOSTICS             "Afficher les interfaces"
 ```
 
