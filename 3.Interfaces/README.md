@@ -21,6 +21,7 @@ Tester le routage a travers le reseau, a partir du 1er PC [192.168.100.1] en exe
 ```
 SHOW IP INT BRIEF            "Afficher l'adresse des interfaces"
 SHOW DIAGNOSTICS             "Afficher les interfaces"
+SHOW CONTROLLERS             "Afficher l'état du lien DTE/DCE"
 ```
 
 Note: Utiliser Cisco Packet Tracer 6.2.0
