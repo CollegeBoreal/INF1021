@@ -8,7 +8,7 @@ Pour pratiquer cet example:
 - Executer les commandes du fichier .txt
 ```
 
-![alt tag](https://github.com/CollegeBoreal/INF1021-16H/blob/master/3.StaticRoute/StaticRoute.png)
+![alt tag](https://github.com/CollegeBoreal/INF1021-16H/blob/master/4.StaticRoute/StaticRoute.png)
 
 ## Le but de l'exercice:
 
