@@ -5,7 +5,7 @@ RIPv2 Route
 Pour pratiquer cet example:
 ```
 - utiliser PacketTracer
-- Configurer le réseau en utilisant la topologie ci-dessous
+- Configurer le réseau en utilisant la topologie ci-dessous (par convention, le PC et à .1 et la passerelle à .254 sur Ethernet)
 - Ajouter un serveur et le connecter avec R3 sur le reseau 192.168.103.0/24 
 - Executer les commandes du fichier .txt
 ```
