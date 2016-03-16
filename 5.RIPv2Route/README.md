@@ -5,11 +5,11 @@ RIPv2 Route
 Pour pratiquer cet example:
 ```
 - utiliser PacketTracer
-- Ouvrir le fichier ../0.IPv4/IPv4.pkt
+- Configurer le réseau en utilisant la topologie ci-dessous
 - Ajouter un serveur et le connecter avec R3 sur le reseau 192.168.103.0/24 
 - Executer les commandes du fichier .txt
 ```
-![alt tag](https://github.com/setrar/INF-1023/blob/master/3.RIPv2Route/RIPv2Route.png)
+![alt tag](https://github.com/setrar/INF-1021-16H/blob/master/5.RIPv2Route/RIPv2Route.png)
 
 ## Le but de l'exercice:
 
