@@ -1,0 +1,67 @@
+
+
+! Premier Routeur
+! Se mettre en mode privilege
+config t
+
+! Permettre le routage IPv6
+ipv6 unicast-routing
+
+! Configuration de RIPng avec un Process ID a 1
+ipv6 router rip 1
+
+! Configurer les routes
+int g0/0
+ipv6 rip 1 enable
+
+int s0/1/1
+ipv6 rip 1 enable
+
+exit
+exit
+wr
+
+! Deuxieme Routeur
+! Se mettre en mode privilege
+config t
+
+! Permettre le routage IPv6
+ipv6 unicast-routing
+
+! Configuration de RIPng avec un process 1
+!ipv6 router rip 1
+
+! Configurer les routes
+int g0/0
+ipv6 rip 1 enable
+
+int s0/1/0
+ipv6 rip 1 enable
+
+int s0/1/1
+ipv6 rip 1 enable
+
+exit
+exit
+wr
+
+! Dernier Routeur
+! Se mettre en mode privilege
+config t
+
+! Permettre le routage IPv6
+ipv6 unicast-routing
+
+! Configuration de RIPng avec un process 1
+!ipv6 router rip 1
+
+! Configurer les routes
+int g0/0
+ipv6 rip 1 enable
+
+int s0/1/0
+ipv6 rip 1 enable
+
+exit
+exit
+wr
