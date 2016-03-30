@@ -1,0 +1,44 @@
+
+
+
+! =====================  Premier Routeur  =======================
+! Entrer en mode privilege
+config t
+! Configurer le Systeme Autonome - Autonomous System
+router eigrp 100
+network 192.168.100.0
+network 10.10.10.4
+no auto-summary
+
+do wr
+exit
+exit
+
+
+! =====================  Deuxieme Routeur  =======================
+! Entrer en mode privilege
+config t
+! Configurer le Systeme Autonome - Autonomous System
+router eigrp 100
+network 192.168.101.0
+network 10.0.0.0
+no auto-summary
+
+do wr
+exit
+exit
+
+! =====================  Troisieme Routeur  =======================
+! Entrer en mode privilege
+config t
+! Configurer le Systeme Autonome - Autonomous System
+router eigrp 100
+network 192.168.102.0
+network 10.0.0.0
+no auto-summary
+
+do wr
+exit
+exit
+
+
