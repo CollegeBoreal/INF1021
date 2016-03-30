@@ -7,7 +7,7 @@ config t
 ! Configurer le Systeme Autonome - Autonomous System
 router eigrp 100
 network 192.168.100.0
-network 10.10.10.4
+network 10.10.10.0
 no auto-summary
 
 do wr
