@@ -5,8 +5,8 @@
 Pour pratiquer cet example:
 ```
 - utiliser PacketTracer
-- Ouvrir le fichier ../0.IPv4/IPv4.pkt
-- Executer les commandes du fichier .txt
+- Etablir la connectivite en vous servant de la topologie ci-dessous
+- Configurer le routage (i.e. Executer les commandes du fichier .txt)
 ```
 
 ![alt tag](https://github.com/setrar/INF-1023/blob/master/5.EIGRPRoute/EIGRPRoute.png)
