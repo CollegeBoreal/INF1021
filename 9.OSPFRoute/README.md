@@ -7,7 +7,6 @@ Pour pratiquer cet example:
 - Utiliser PacketTracer
 - Etablir la connectivite en vous servant de la topologie ci-dessous
 - Configurer le routage (i.e. en vous aidant des commandes du fichier .txt)
-
 ```
 
 ![alt tag](https://github.com/CollegeBoreal/INF1021-16H/blob/master/9.OSPFRoute/OSPFRoute.png)
