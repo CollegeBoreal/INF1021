@@ -9,7 +9,7 @@ Pour pratiquer cet example:
 - Executer les commandes du fichier .txt
 ```
 
-![alt tag](https://github.com/setrar/INF-1023/blob/master/6.OSPFRoute/OSPFRoute.png)
+![alt tag](https://github.com/CollegeBoreal/INF1021-16H/blob/master/9.OSPFRoute/OSPFRoute.png)
 
 ## Le but de l'exercice:
 
