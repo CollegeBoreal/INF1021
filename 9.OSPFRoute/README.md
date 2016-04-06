@@ -5,8 +5,9 @@
 Pour pratiquer cet example:
 ```
 - Utiliser PacketTracer
-- Ouvrir ../0.IPv4/IPv4.pkt
-- Executer les commandes du fichier .txt
+- Etablir la connectivite en vous servant de la topologie ci-dessous
+- Configurer le routage (i.e. en vous aidant des commandes du fichier .txt)
+
 ```
 
 ![alt tag](https://github.com/CollegeBoreal/INF1021-16H/blob/master/9.OSPFRoute/OSPFRoute.png)
